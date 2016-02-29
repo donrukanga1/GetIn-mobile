@@ -9,13 +9,15 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="ug.getin.app.MainActivity"
-    tools:showIn="@layout/activity_main">
+    tools:context="ug.getin.app.ui.MappedGirlsActivity"
+    tools:showIn="@layout/activity_mapped_girls">
+
 
     <ListView
-        android:id="@+id/main_menu"
+        android:id="@+id/girlsListView"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
     </ListView>
+
 </RelativeLayout>
